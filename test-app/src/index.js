@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function test() {
+  var a = Math.random() * 1000;
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
